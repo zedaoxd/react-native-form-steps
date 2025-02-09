@@ -38,8 +38,6 @@ export function FormStepTwo() {
     navigate("FormStepThree");
   }
 
-  console.log(phoneRef.current?.getElement());
-
   return (
     <View style={styles.container}>
       <Progress progress={66} />
